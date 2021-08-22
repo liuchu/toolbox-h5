@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 7070",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "ant-design-vue": "^1.7.7",
     "core-js": "^3.6.5",
+    "reqwest": "^2.0.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
